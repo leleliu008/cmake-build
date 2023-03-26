@@ -92,7 +92,7 @@ jobs:
     if: false
     #needs: [check, netbsd-amd64]
     needs: [check]
-    if: needs.check.outputs.if-need-to-publish-a-new-release == 'yes'
+      #if: needs.check.outputs.if-need-to-publish-a-new-release == 'yes'
 
     runs-on: macos-12
 
